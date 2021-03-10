@@ -1,7 +1,924 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE FASHIONHOLIC</title>
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      :root {
+        --bg-land: url('');
+        --bg-port: url('');
+      }
+
+      article, main > div:first-of-type > section > article > div {
+        background-image: var(--bg-land);
+      }
+
+      @media screen and (max-width: 450px) {
+        article {
+          background-image: var(--bg-port);
+        }
+      }
+
+      @media screen and (max-width: 650px) {
+        main > div:first-of-type > section > article > div {
+          background-image: var(--bg-port);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="index.html">THE</a>
+        <a href="index.html">FASHIONHOLIC</a>
+      </div>
+      <div>
+        <a href="https://www.facebook.com/" target="_blank">&#xf09a;</a>
+        <a href="https://twitter.com/" target="_blank">&#xf231;</a>
+        <a href="https://www.pinterest.com/" target="_blank">&#xf099;</a>
+        <a href="https://www.instagram.com/" target="_blank">&#xf16d;</a>
+        <a href="https://www.youtube.com/" target="_blank">&#xf16a;</a>
+      </div>
+    </header>
+    <main>
+      <section>
+        <input class="toggle" type="radio" name="slide" id="toggle-edit1" checked>
+        <article style="--bg-land: url('img/edit-landscape-1'); --bg-port: url('img/edit-portrait-1');">
+          <div></div>
+          <div></div>
+          <div>
+            <a href="#">&#xf231;</a>
+            <label>&#xe901;</label>
+            <div>
+              <h5><a href="fashion.html">FASHION</a></h5>
+              <h1><a href="edit.html">A NIGHT OUT IN WHISTLER</a></h1>
+              <time datetime="2019-10-29">OCTOBER 29, 2019</time>
+            </div>
+            <label for="toggle-edit2">&#xe900;</label>
+          </div>
+        </article>
+        <input class="toggle" type="radio" name="slide" id="toggle-edit2">
+        <article style="--bg-land: url('img/edit-landscape-2'); --bg-port: url('img/edit-portrait-2');">
+          <div></div>
+          <div></div>
+          <div>
+            <a href="#">&#xf231;</a>
+            <label for="toggle-edit1">&#xe901;</label>
+            <div>
+              <h5><a href="life.html">LIFE</a></h5>
+              <h1><a href="edit.html">A LITTLE BIT ABOUT DIET</a></h1>
+              <time datetime="2019-10-03">OCTOBER 3, 2019</time>
+            </div>
+            <label for="toggle-edit3">&#xe900;</label>
+          </div>
+        </article>
+        <input class="toggle" type="radio" name="slide" id="toggle-edit3">
+        <article style="--bg-land: url('img/edit-landscape-3'); --bg-port: url('img/edit-portrait-3');">
+          <div></div>
+          <div></div>
+          <div>
+            <a href="#">&#xf231;</a>
+            <label for="toggle-edit2">&#xe901;</label>
+            <div>
+              <h5><a href="life.html">LIFE</a></h5>
+              <h1><a href="edit.html">SHE SAID "OUI" AT PARIS</a></h1>
+              <time datetime="2019-10-01">OCTOBER 1, 2019</time>
+            </div>
+            <label for="toggle-edit4">&#xe900;</label>
+          </div>
+        </article>
+        <input class="toggle" type="radio" name="slide" id="toggle-edit4">
+        <article style="--bg-land: url('img/edit-landscape-4'); --bg-port: url('img/edit-portrait-4');">
+          <div></div>
+          <div></div>
+          <div>
+            <a href="#">&#xf231;</a>
+            <label for="toggle-edit3">&#xe901;</label>
+            <div>
+              <h5><a href="beauty.html">BEAUTY</a></h5>
+              <h1><a href="edit.html">BEAUTY WITH BENEFITS</a></h1>
+              <time datetime="2019-10-01">OCTOBER 1, 2019</time>
+            </div>
+            <label for="toggle-edit5">&#xe900;</label>
+          </div>
+        </article>
+        <input class="toggle" type="radio" name="slide" id="toggle-edit5">
+        <article style="--bg-land: url('img/edit-landscape-5'); --bg-port: url('img/edit-portrait-5');">
+          <div></div>
+          <div></div>
+          <div>
+            <a href="#">&#xf231;</a>
+            <label for="toggle-edit4">&#xe901;</label>
+            <div>
+              <h5><a href="fashion.html">FASHION</a></h5>
+              <h1><a href="edit.html">STYLE WITH MY MINI</a></h1>
+              <time datetime="2019-09-20">SEPTEMBER 20, 2019</time>
+            </div>
+            <label for="toggle-edit6">&#xe900;</label>
+          </div>
+        </article>
+        <input class="toggle" type="radio" name="slide" id="toggle-edit6">
+        <article style="--bg-land: url('img/edit-landscape-6'); --bg-port: url('img/edit-portrait-6');">
+          <div></div>
+          <div></div>
+          <div>
+            <a href="#">&#xf231;</a>
+            <label for="toggle-edit5">&#xe901;</label>
+            <div>
+              <h5><a href="life.html">LIFE</a></h5>
+              <h1><a href="edit.html">5 SPORTY PIECES YOU NEED IN YOUR CLOSET</a></h1>
+              <time datetime="2019-09-15">SEPTEMBER 15, 2019</time>
+            </div>
+            <label>&#xe900;</label>
+          </div>
+        </article>
+      </section>
+      <div>
+        <section>
+          <article>
+            <div style="--bg-land: url('img/edit-landscape-1'); --bg-port: url('img/edit-portrait-1');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <input class="toggle" type="checkbox" id="shop-edit1">
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                  <label for="shop-edit1"></label>
+                </div>
+              </div>
+            </div>
+            <h5><a href="fashion.html">FASHION</a></h5>
+            <h2><a href="edit.html">A NIGHT OUT IN WHISTLER</a></h2>
+            <time datetime="2019-10-29">OCTOBER 29, 2019</time>
+          </article>
+          <article>
+            <div style="--bg-land: url('img/edit-landscape-2'); --bg-port: url('img/edit-portrait-2');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                </div>
+              </div>
+            </div>
+            <h5><a href="life.html">LIFE</a></h5>
+            <h2><a href="edit.html">A LITTLE BIT ABOUT DIET</a></h2>
+            <time datetime="2019-10-03">OCTOBER 3, 2019</time>
+          </article>
+          <article>
+            <div style="--bg-land: url('img/edit-landscape-3'); --bg-port: url('img/edit-portrait-3');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                </div>
+              </div>
+            </div>
+            <h5><a href="life.html">LIFE</a></h5>
+            <h2><a href="edit.html">SHE SAID "OUI" AT PARIS</a></h2>
+            <time datetime="2019-10-01">OCTOBER 1, 2019</time>
+          </article>
+          <article>
+            <div style="--bg-land: url('img/edit-landscape-4'); --bg-port: url('img/edit-portrait-4');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <input class="toggle" type="checkbox" id="shop-edit4">
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                  <label for="shop-edit4"></label>
+                </div>
+              </div>
+            </div>
+            <h5><a href="beauty.html">BEAUTY</a></h5>
+            <h2><a href="edit.html">BEAUTY WITH BENEFITS</a></h2>
+            <time datetime="2019-10-01">OCTOBER 1, 2019</time>
+          </article>
+          <article>
+            <div style="--bg-land: url('img/edit-landscape-5'); --bg-port: url('img/edit-portrait-5');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <input class="toggle" type="checkbox" id="shop-edit5">
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                  <label for="shop-edit5"></label>
+                </div>
+              </div>
+            </div>
+            <h5><a href="fashion.html">FASHION</a></h5>
+            <h2><a href="edit.html">STYLE WITH MY MINI</a></h2>
+            <time datetime="2019-09-20">SEPTEMBER 20, 2019</time>
+          </article>
+          <article>
+            <div style="--bg-land: url('img/edit-landscape-6'); --bg-port: url('img/edit-portrait-6');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <input class="toggle" type="checkbox" id="shop-edit6">
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                  <label for="shop-edit6"></label>
+                </div>
+              </div>
+            </div>
+            <h5><a href="life.html">LIFE</a></h5>
+            <h2><a href="edit.html">5 SPORTY PIECES YOU NEED IN YOUR CLOSET</a></h2>
+            <time datetime="2019-09-15">SEPTEMBER 15, 2019</time>
+          </article>
+          <article>
+            <div style="--bg-land: url('img/edit-landscape-7'); --bg-port: url('img/edit-portrait-7');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                </div>
+              </div>
+            </div>
+            <h5><a href="life.html">LIFE</a></h5>
+            <h2><a href="edit.html">MY READING HOBBY</a></h2>
+            <time datetime="2019-08-31">AUGUST 31, 2019</time>
+          </article>
+          <article>
+            <div style="--bg-land: url('img/edit-landscape-8'); --bg-port: url('img/edit-portrait-8');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <input class="toggle" type="checkbox" id="shop-edit8">
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                  <label for="shop-edit8"></label>
+                </div>
+              </div>
+            </div>
+            <h5><a href="fashion.html">FASHION</a></h5>
+            <h2><a href="edit.html">A SCARF TO THE RESCUE</a></h2>
+            <time datetime="2019-08-20">AUGUST 20, 2019</time>
+          </article>
+          <article>
+            <div style="--bg-land: url('img/edit-landscape-9'); --bg-port: url('img/edit-portrait-9');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <input class="toggle" type="checkbox" id="shop-edit9">
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                  <label for="shop-edit9"></label>
+                </div>
+              </div>
+            </div>
+            <h5><a href="fashion.html">FASHION</a></h5>
+            <h2><a href="edit.html">MY FASHION STORY OF CAIRO CITY</a></h2>
+            <time datetime="2019-08-15">AUGUST 15, 2019</time>
+          </article>
+          <article>
+            <div style="--bg-land: url('img/edit-landscape-10'); --bg-port: url('img/edit-portrait-10');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <input class="toggle" type="checkbox" id="shop-edit10">
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                  <label for="shop-edit10"></label>
+                </div>
+              </div>
+            </div>
+            <h5><a href="fashion.html">FASHION</a></h5>
+            <h2><a href="edit.html">MY TOP 5 SUNGLASSES OF THE MOMENT</a></h2>
+            <time datetime="2019-07-30">JULY 30, 2019</time>
+          </article>
+          <article>
+            <div style="--bg-land: url('img/edit-landscape-11'); --bg-port: url('img/edit-portrait-11');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <input class="toggle" type="checkbox" id="shop-edit11">
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                  <label for="shop-edit11"></label>
+                </div>
+              </div>
+            </div>
+            <h5><a href="fashion.html">FASHION</a></h5>
+            <h2><a href="edit.html">A BEAUTIFUL DRESS FOR A COLOURFUL DAY</a></h2>
+            <time datetime="2019-07-25">JULY 25, 2019</time>
+          </article>
+          <article>
+            <div style="--bg-land: url('img/edit-landscape-12'); --bg-port: url('img/edit-portrait-12');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                </div>
+              </div>
+            </div>
+            <h5><a href="life.html">LIFE</a></h5>
+            <h2><a href="edit.html">MY FAVOURITE SUMMER MOMENTS THIS YEAR</a></h2>
+            <time datetime="2019-07-20">JULY 20, 2019</time>
+          </article>
+          <article>
+            <div style="--bg-land: url('img/edit-landscape-13'); --bg-port: url('img/edit-portrait-13');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                </div>
+              </div>
+            </div>
+            <h5><a href="life.html">LIFE</a></h5>
+            <h2><a href="edit.html">END OF SUMMER INSTA ROUNDUP</a></h2>
+            <time datetime="2019-07-20">JULY 20, 2019</time>
+          </article>
+          <article>
+            <div style="--bg-land: url('img/edit-landscape-14'); --bg-port: url('img/edit-portrait-14');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                </div>
+              </div>
+            </div>
+            <h5><a href="life.html">LIFE</a></h5>
+            <h2><a href="edit.html">PLACES TO VISIT IN ZÜRICH</a></h2>
+            <time datetime="2019-07-15">JULY 20, 2019</time>
+          </article>
+        </section>
+        <section>
+          <input class="toggle" type="radio" name="video-slide" id="toggle-video1" checked>
+          <article>
+            <div style="background-image: url('img/video-1');">
+              <div>
+
+              </div>
+              <div>
+                <a href="https://www.youtube.com/watch?v=zTYLKwn3FJk" target="_blank">&#xe909;</a>
+              </div>
+            </div>
+            <div>
+              <label for="toggle-video6">&#xe90b;</label>
+              <h3><a href="https://www.youtube.com/watch?v=zTYLKwn3FJk" target="_blank">CHIC AND COSY HOLIDAY TRAVEL WEAR</a></h3>
+              <label for="toggle-video2">&#xe90c;</label>
+            </div>
+          </article>
+          <input class="toggle" type="radio" name="video-slide" id="toggle-video2">
+          <article>
+            <div style="background-image: url('img/video-2');">
+              <div>
+
+              </div>
+              <div>
+                <a href="https://www.youtube.com/watch?v=Pm7-EK5RQQc" target="_blank">&#xe909;</a>
+              </div>
+            </div>
+            <div>
+              <label for="toggle-video1">&#xe90b;</label>
+              <h3><a href="https://www.youtube.com/watch?v=Pm7-EK5RQQc" target="_blank">MY TRIP TO EGYPT</a></h3>
+              <label for="toggle-video3">&#xe90c;</label>
+            </div>
+          </article>
+          <input class="toggle" type="radio" name="video-slide" id="toggle-video3">
+          <article>
+            <div style="background-image: url('img/video-3');">
+              <div>
+
+              </div>
+              <div>
+                <a href="https://www.youtube.com/watch?v=pklrIM1M-VY" target="_blank">&#xe909;</a>
+              </div>
+            </div>
+            <div>
+              <label for="toggle-video2">&#xe90b;</label>
+              <h3><a href="https://www.youtube.com/watch?v=pklrIM1M-VY" target="_blank">HOW TO WEAR FUR COAT?</a></h3>
+              <label for="toggle-video4">&#xe90c;</label>
+            </div>
+          </article>
+          <input class="toggle" type="radio" name="video-slide" id="toggle-video4">
+          <article>
+            <div style="background-image: url('img/video-4');">
+              <div>
+
+              </div>
+              <div>
+                <a href="https://www.youtube.com/watch?v=aOPsF97NYXg" target="_blank">&#xe909;</a>
+              </div>
+            </div>
+            <div>
+              <label for="toggle-video3">&#xe90b;</label>
+              <h3><a href="https://www.youtube.com/watch?v=aOPsF97NYXg" target="_blank">WHAT IS THE PERFECT MAKEUP?</a></h3>
+              <label for="toggle-video5">&#xe90c;</label>
+            </div>
+          </article>
+          <input class="toggle" type="radio" name="video-slide" id="toggle-video5">
+          <article>
+            <div style="background-image: url('img/video-5');">
+              <div>
+
+              </div>
+              <div>
+                <a href="https://www.youtube.com/watch?v=nQxE6rk4Gck" target="_blank">&#xe909;</a>
+              </div>
+            </div>
+            <div>
+              <label for="toggle-video4">&#xe90b;</label>
+              <h3><a href="https://www.youtube.com/watch?v=nQxE6rk4Gck" target="_blank">IN THE STREETS OF ZÜRICH</a></h3>
+              <label for="toggle-video6">&#xe90c;</label>
+            </div>
+          </article>
+          <input class="toggle" type="radio" name="video-slide" id="toggle-video6">
+          <article>
+            <div style="background-image: url('img/video-6');">
+              <div>
+
+              </div>
+              <div>
+                <a href="https://www.youtube.com/watch?v=0AURK2wsYwY" target="_blank">&#xe909;</a>
+              </div>
+            </div>
+            <div>
+              <label for="toggle-video5">&#xe90b;</label>
+              <h3><a href="https://www.youtube.com/watch?v=0AURK2wsYwY" target="_blank">BEAUTY WITH BENEFITS</a></h3>
+              <label for="toggle-video1">&#xe90c;</label>
+            </div>
+          </article>
+          <a href="#">VIEW MORE ON&nbsp;&nbsp;<span>&#xef16;</span></a>
+          <input class="toggle" type="checkbox" id="check-youtube">
+          <div>
+            <label for="check-youtube">&#xe905;</label>
+            <iframe name="youtube" autoplay></iframe>
+          </div>
+        </section>
+      </div>
+      <div>
+        <section>
+          <h1>Bio</h1>
+          <p>I’m from Atlanta, but have been studying and working in New York City for over 10 years. You could say I’m a fashion and retail industry vet with experience as a buyer, stylist, and marketer. I got my start in the Bloomingdale’s buying office, but my obsession with home decor drew me back to school to study interior design...</p>
+          <a href="about.html">READ MORE</a>
+        </section>
+        <section>
+          <a href="#" target="_blank"><img src="img/shop-15.jpg" alt="Shop list item"></a>
+          <a href="#" target="_blank"><img src="img/shop-01.jpg" alt="Shop list item"></a>
+          <a href="#" target="_blank"><img src="img/shop-12.png" alt="Shop list item"></a>
+          <a href="#" target="_blank"><img src="img/shop-10.jpg" alt="Shop list item"></a>
+          <a href="#" target="_blank"><img src="img/shop-14.jpg" alt="Shop list item"></a>
+          <a href="#" target="_blank"><img src="img/shop-04.png" alt="Shop list item"></a>
+          <a href="#" target="_blank"><img src="img/shop-13.jpg" alt="Shop list item"></a>
+          <a href="#" target="_blank"><img src="img/shop-06.png" alt="Shop list item"></a>
+          <a href="shop.html">SHOP MY LOOK</a>
+        </section>
+        <section>
+          <div>
+            <hr><span>INSTAGRAM</span><hr>
+          </div>
+          <article style="background-image: url('img/insta-1.jpg');">
+            <a href="#">
+              <span>71</span>&nbsp;&nbsp;
+              <span>22</span>
+            </a>
+          </article>
+          <article style="background-image: url('img/insta-2.jpg');">
+            <span>&#xeb04;</span>
+            <a href="#">
+              <span>50</span>&nbsp;&nbsp;
+              <span>34</span>
+            </a>
+          </article>
+          <article style="background-image: url('img/insta-3.jpg');">
+            <span>&#xeb04;</span>
+            <a href="#">
+              <span>33</span>&nbsp;&nbsp;
+              <span>9</span>
+            </a>
+          </article>
+          <article style="background-image: url('img/insta-4.jpg');">
+            <span>&#xeb04;</span>
+            <a href="#">
+              <span>110</span>&nbsp;&nbsp;
+              <span>4</span>
+            </a>
+          </article>
+          <article style="background-image: url('img/insta-5.jpg');">
+            <a href="#">
+              <span>92</span>&nbsp;&nbsp;
+              <span>12</span>
+            </a>
+          </article>
+          <article style="background-image: url('img/insta-6.jpg');">
+            <a href="#">
+              <span>100</span>&nbsp;&nbsp;
+              <span>10</span>
+            </a>
+          </article>
+          <article style="background-image: url('img/insta-7.jpg');">
+            <span>&#xeb04;</span>
+            <a href="#">
+              <span>12</span>&nbsp;&nbsp;
+              <span>6</span>
+            </a>
+          </article>
+        </section>
+        <form class="subscribe">
+          <label>STAY UPDATED!</label>
+          <input type="email" placeholder="Type your email..." name="subscribeemail">
+          <button type="submit">SUBSCRIBE</button>
+        </form>
+      </div>
+      <section>
+        <div>
+          <article>
+            <div style="background-image: url('img/edit-portrait-15');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                </div>
+              </div>
+            </div>
+            <h3><a href="edit.html">THE UNEXPECTED SUMMER PIECE YOU CAN TRANSITION INTO FALL</a></h3>
+            <time datetime="2019-07-19">JULY 19, 2019</time>
+          </article>
+          <article>
+            <div style="background-image: url('img/edit-portrait-16');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                </div>
+              </div>
+            </div>
+            <h3><a href="edit.html">NEW DESIGNERS: 11 BRANDS I FOUND ON INSTAGRAM</a></h3>
+            <time datetime="2019-07-15">JULY 15, 2019</time>
+          </article>
+          <article>
+            <div style="background-image: url('img/edit-portrait-17');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                </div>
+              </div>
+            </div>
+            <h3><a href="edit.html">THE SWIMSUIT WOULD WORK IN ANY DECADE</a></h3>
+            <time datetime="2019-07-10">JULY 10, 2019</time>
+          </article>
+          <article>
+            <div style="background-image: url('img/edit-portrait-18');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                </div>
+              </div>
+            </div>
+            <h3><a href="edit.html">COFFEE BREAK</a></h3>
+            <time datetime="2019-07-07">JULY 7, 2019</time>
+          </article>
+          <article>
+            <div style="background-image: url('img/edit-portrait-19');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                </div>
+              </div>
+            </div>
+            <h3><a href="edit.html">MY NEW HAIR</a></h3>
+            <time datetime="2019-07-01">JULY 1, 2019</time>
+          </article>
+          <article>
+            <div style="background-image: url('img/edit-portrait-20');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                </div>
+              </div>
+            </div>
+            <h3><a href="edit.html">STAPLE SUMMER LIPS</a></h3>
+            <time datetime="2019-06-19">JUNE 19, 2019</time>
+          </article>
+          <article>
+            <div style="background-image: url('img/edit-portrait-21');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                </div>
+              </div>
+            </div>
+            <h3><a href="edit.html">SUMMER MOTIVATION</a></h3>
+            <time datetime="2019-06-12">JUNE 12, 2019</time>
+          </article>
+          <article>
+            <div style="background-image: url('img/edit-portrait-22');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                </div>
+              </div>
+            </div>
+            <h3><a href="edit.html">SUMMER FAVOURITES</a></h3>
+            <time datetime="2019-06-09">JUNE 9, 2019</time>
+          </article>
+          <article>
+            <div style="background-image: url('img/edit-portrait-23');">
+              <div>
+                <a href="#">&#xf231;</a>
+                <div>
+
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      <a href="#">&#xf09a;</a>
+                      <a href="#">&#xf099;</a>
+                      <a href="#">&#xe90d;</a>
+                    </div>
+                    <span>&#xebb3;</span>
+                  </div>
+                  <a href="edit.html">+99</a>
+                </div>
+              </div>
+            </div>
+            <h3><a href="edit.html">INSTA ROUNDUP</a></h3>
+            <time datetime="2019-06-08">JUNE 8, 2019</time>
+          </article>
+        </div>
+        <button type="button">LOAD MORE</button>
+      </section>
+    </main>
+    <input class="toggle" type="checkbox" id="check-menu">
+    <nav>
+      <div>
+        <div>
+          <label for="check-menu">
+            <div>&#xe906;</div>
+            <div>&#xe905;</div>
+          </label>
+          <a href="index.html">HOME</a>
+          <a href="index.html?pagename=fashion">FASHION</a>
+          <a href="index.html?pagename=beauty">BEAUTY</a>
+          <div>
+            <a href="index.html?pagename=life">LIFE</a>
+            <a href="shop.html">SHOP</a>
+          </div>
+        </div>
+        <div>
+          <a href="about.html">ABOUT</a>
+          <input class="toggle" type="checkbox" id="check-subscribe">
+          <div>
+            <form class="subscribe">
+              <label for="check-subscribe">&#xe905;</label>
+              <label>STAY UPDATED!</label>
+              <input type="email" placeholder="Type your email..." name="subscribeemail">
+              <button type="submit">SUBSCRIBE</button>
+            </form>
+          </div>
+          <label for="check-subscribe">SUBSCRIBE</label>
+          <form class="search">
+            <input type="search" placeholder="Looking for...">
+            <button type="submit">&#xe902;</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <script src="js/main.js"></script>
+  </body>
 </html>
